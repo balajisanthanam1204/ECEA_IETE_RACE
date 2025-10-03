@@ -15,21 +15,21 @@ const clubs = {
         name: 'M Raeef',
         role: 'President',
         year: 'IV Year ECE B',
-        image: 'https://drive.google.com/file/d/1jsx0qPyvFnWB7WDr6RI_Y0RNoj8fCDe0/view?usp=drive_link',
+        image: '/ECEA-MEMBERS/MOHAMMED RAEEF ECE.jpeg',
         social: { github: '#', linkedin: '#', email: 'raeef@ecea.com' }
       },
       {
         name: 'Harinee V T',
         role: 'Vice-President',
         year: 'IV Year ECE A',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/HARINEE V T ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'harinee@ecea.com' }
       },
       {
         name: 'Balaji S',
         role: 'Secretary',
         year: 'III Year ECE A',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/BALAJI S ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'balaji@ecea.com' }
       },
       {
