@@ -15,8 +15,8 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
       <div className="container mx-auto px-8 py-6">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-            <span className="font-display font-bold text-lg tracking-tight">ECEA</span>
+            {/* <div className="w-2 h-2 bg-accent rounded-full animate-pulse" /> */}
+            <span className="font-display font-bold text-lg tracking-tight">ECEA,IETE-SF,RACE</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -98,7 +98,7 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
               }}
               className="w-full justify-center group"
             >
-              <span>Watch our reel</span>
+              <span>Upcomming Events</span>
               <Play className="w-3 h-3 ml-2 group-hover:text-accent transition-colors" />
             </Button>
           </div>
