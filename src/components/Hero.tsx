@@ -31,7 +31,7 @@ export default function Hero() {
               
               <div className="mt-6 text-center ">
                 <p className="text-sm text-muted-foreground ">
-                  ECEA is a student-led community exploring design, innovation, and immersive technology.
+                  ECEA,IETE-SF,RACE are student-led community exploring design, innovation, and immersive technology.
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Hero() {
           <br></br>
             <div className="space-y-4">
               <h2 className="text-xs uppercase tracking-[0.3em] text-primary font-medium">
-                Welcome to ECEA
+                Welcome to ECEA,IETE-SF,RACE
               </h2>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-[1.1] text-glow">
                 We imagine, explore and build immersive experiences for the student.
