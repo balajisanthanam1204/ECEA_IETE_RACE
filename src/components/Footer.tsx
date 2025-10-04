@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div className="space-y-4">
-            <h3 className="text-2xl font-display font-bold">ECEA,IETE,RACE</h3>
+            <h3 className="text-2xl font-display font-bold">ECEA,IETE-SF,RACE</h3>
             <p className="text-sm text-foreground/70">
               Building the future of immersive technology, one project at a time.
             </p>
@@ -50,7 +50,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 text-sm text-foreground/70">
               <p>ecea@svce.ac.in</p>
-              <p>iete@svce.ac.in</p>
+              <p>ietesf@svce.ac.in</p>
               <p>race@svce.ac.in</p>
               <p>SVCE, kanchipuram, Tamil Nadu. </p>
 
