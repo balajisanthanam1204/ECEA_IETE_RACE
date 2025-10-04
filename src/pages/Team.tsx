@@ -36,56 +36,56 @@ const clubs = {
         name: 'Surya K',
         role: 'Treasurer',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/SURYA K ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'surya@ecea.com' }
       },
       {
         name: 'Anushri V',
         role: 'Executive Member',
         year: 'III Year ECE A',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/ANUSHRI V ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'anushri@ecea.com' }
       },
       {
         name: 'Preethika R',
         role: 'Executive Member',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/PREETHIKA R ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'preethika@ecea.com' }
       },
       {
         name: 'Sudesh Pillai',
         role: 'Executive Member',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/SUDESH SHRIKANT PILLAI ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'sudesh@ecea.com' }
       },
       {
         name: 'Lavanya P',
         role: 'Executive Member',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/LAVANYA P ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'lavanya@ecea.com' }
       },
       {
         name: 'N.Yaazhinii',
         role: 'Joint Secretary',
         year: 'II Year ECE B',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/N YAAZHINII ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'yaazhinii@ecea.com' }
       },
       {
         name: 'Abhimanyu Singh Bhati',
         role: 'Joint Secretary',
         year: 'II Year ECE A',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/ABHIMANYU SINGH BHATI ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'abhimanyu@ecea.com' }
       },
       {
         name: 'Prathiba MSK',
         role: 'Joint Secretary',
         year: 'II Year ECE B',
-        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop',
+        image: '/ECEA-MEMBERS/PRATHIBA.jpg',
         social: { github: '#', linkedin: '#', email: 'prathiba@ecea.com' }
       }
     ]
@@ -99,77 +99,77 @@ const clubs = {
         name: 'Yaaminy S K',
         role: 'Chairwoman',
         year: 'IV Year ECE C',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/YAAMINY S K ECE.JPG',
         social: { github: '#', linkedin: '#', email: 'yaaminy@iete.com' }
       },
       {
         name: 'Roobuck Ganeshwara Rao C',
         role: 'Vice-Chairman',
         year: 'IV Year ECE C',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/Roobuck ganeshwara rao C.jpg',
         social: { github: '#', linkedin: '#', email: 'roobuck@iete.com' }
       },
       {
         name: 'Harini Chinnasamy',
         role: 'Honorary Secretary',
         year: 'III Year ECE A',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/HARINI C ECE.jpeg',
         social: { github: '#', linkedin: '#', email: 'harini@iete.com' }
       },
       {
         name: 'Bawadharani Sree R',
         role: 'Honorary Treasurer',
         year: 'III Year ECE A',
-        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/BAWADHARANI SREE R ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'bawadharani@iete.com' }
       },
       {
         name: 'Tejaswi S',
         role: 'Executive Member',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/TEJASWI S ECE.jpeg',
         social: { github: '#', linkedin: '#', email: 'tejaswi@iete.com' }
       },
       {
         name: 'Rohith Kanna S',
         role: 'Executive Member',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/ROHITH KANNA S ECE.JPG',
         social: { github: '#', linkedin: '#', email: 'rohith@iete.com' }
       },
       {
         name: 'Karunya D',
         role: 'Executive Member',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/KARUNYA D ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'karunya@iete.com' }
       },
       {
         name: 'Sanjana Praveen',
         role: 'Executive Member',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/SANJANA PRAVEEN KUMAR ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'sanjana@iete.com' }
       },
       {
         name: 'A Aadhithya Narayanan',
         role: 'Joint Secretary',
         year: 'II Year ECE A',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/A AADHITHYA NARAYANAN ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'aadhithya@iete.com' }
       },
       {
         name: 'Mahalakshmi L',
         role: 'Joint Secretary',
         year: 'II Year ECE B',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/MAHALAKSHMI L ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'mahalakshmi@iete.com' }
       },
       {
         name: 'Viswanathan L',
         role: 'Joint Secretary',
         year: 'II Year ECE C',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/IETE-MEMBERS/VISWANATHAN L ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'viswanathan@iete.com' }
       }
     ]
@@ -183,112 +183,112 @@ const clubs = {
         name: 'Roshan M',
         role: 'President',
         year: 'IV Year ECE C',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/ROSHAN.JPG',
         social: { github: '#', linkedin: '#', email: 'roshan@race.com' }
       },
       {
         name: 'Adarsh S',
         role: 'Vice-President',
         year: 'IV Year ECE A',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/ADARSH S.jpg',
         social: { github: '#', linkedin: '#', email: 'adarsh@race.com' }
       },
       {
         name: 'Lakshanaa A M',
         role: 'Secretary',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/B S AARTI ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'lakshanaa@race.com' }
       },
       {
         name: 'B.S.Aarti',
         role: 'Joint Secretary',
         year: 'II Year ECE A',
-        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/B S AARTI ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'aarti@race.com' }
       },
       {
         name: 'Preethika R',
         role: 'Joint Secretary',
         year: 'II Year ECE B',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/PREETHIKA R ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'preethika@race.com' }
       },
       {
         name: 'Sanjai P',
         role: 'Joint Secretary',
         year: 'II Year ECE C',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/SANJAI P ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'sanjai@race.com' }
       },
       {
         name: 'Balasaraswathy B',
         role: 'Lead Mentor',
         year: 'IV Year ECE A',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/BALASARASWATHY B ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'balasaraswathy@race.com' }
       },
       {
         name: 'Aswin Kumar K',
         role: 'Lead Mentor',
         year: 'IV Year ECE A',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/ASWIN KUMAR K.jpg',
         social: { github: '#', linkedin: '#', email: 'aswin@race.com' }
       },
       {
         name: 'Vikash S K',
         role: 'Lead Mentor',
         year: 'IV Year ECE C',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/vikash Krishnakumar.jpg',
         social: { github: '#', linkedin: '#', email: 'vikash@race.com' }
       },
       {
         name: 'Lohith Ashwa S',
         role: 'Mentor',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/LOHITH ASHWA S ECE.png',
         social: { github: '#', linkedin: '#', email: 'lohith@race.com' }
       },
       {
         name: 'Muhilan S',
         role: 'Mentor',
         year: 'III Year ECE B',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/MUHILAN S ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'muhilan@race.com' }
       },
       {
         name: 'Srivatsan S P',
         role: 'Mentor',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/SRIVATSAN S P ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'srivatsan@race.com' }
       },
       {
         name: 'Shriram Kumar V',
         role: 'Mentor',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/SHRIRAM KUMAR V ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'shriram@race.com' }
       },
       {
         name: 'Vinayagamurthi E',
         role: 'Mentor',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/VINAYAGAMURTHI E ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'vinayagamurthi@race.com' }
       },
       {
         name: 'Sudhan S',
         role: 'Mentor',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/SUDHAN S ECE.png',
         social: { github: '#', linkedin: '#', email: 'sudhan@race.com' }
       },
       {
         name: 'Rithvik R',
         role: 'Mentor',
         year: 'III Year ECE C',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+        image: '/RACE-MEMBERS/RITHVIK R ECE.jpg',
         social: { github: '#', linkedin: '#', email: 'rithvik@race.com' }
       }
     ]
