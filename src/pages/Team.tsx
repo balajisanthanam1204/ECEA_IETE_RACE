@@ -85,7 +85,7 @@ const clubs = {
         name: 'Prathiba MSK',
         role: 'Joint Secretary',
         year: 'II Year ECE B',
-        image: '/ECEA-MEMBERS/PRATHIBA.jpg',
+        image: '/ECEA-MEMBERS/PRATHIBA S.png',
         social: { github: '#', linkedin: '#', email: 'prathiba@ecea.com' }
       }
     ]
@@ -120,7 +120,7 @@ const clubs = {
         name: 'Bawadharani Sree R',
         role: 'Honorary Treasurer',
         year: 'III Year ECE A',
-        image: '/IETE-MEMBERS/BAWADHARANI SREE R ECE.jpg',
+        image: '/IETE-MEMBERS/BAWADHARANI.jpg',
         social: { github: '#', linkedin: '#', email: 'bawadharani@iete.com' }
       },
       {
