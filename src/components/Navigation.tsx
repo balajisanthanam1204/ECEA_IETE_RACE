@@ -14,7 +14,7 @@ const upcomingEvents = [
     id: 1,
     title: 'Enigma',
     poster: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop',
-    description: 'Join us for an immersive workshop on cutting-edge technology and innovation.',
+    description: 'Fusion of simple problem-solving and code-breaking challenges designed exclusively for 1st-year ECE students (2025–2029).',
     venue: 'IIIrd-floor,Block 5,SVCE.',
     date: '07th October 2025',
     time: '10:00 AM - 3:00 PM',

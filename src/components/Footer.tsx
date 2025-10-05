@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-foreground/50">
           <p>© 2026 ECEA,IETE.RACE. All rights reserved.</p>
-          <p>Crafted with passion by the ECEA,IETE,RACE team</p>
+          <p>Developed <a href="https://www.linkedin.com/in/balaji-santhanam008/" >Balaji S</a></p>
         </div>
       </div>
     </footer>

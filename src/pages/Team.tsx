@@ -30,7 +30,7 @@ const clubs = {
         role: 'Secretary',
         year: 'III Year ECE A',
         image: '/ECEA-MEMBERS/BALAJI S ECE.jpg',
-        social: { github: '#', linkedin: '#', email: 'balaji@ecea.com' }
+        social: { github: '#', linkedin: 'https://www.linkedin.com/in/balaji-santhanam008/', email: 'balaji@ecea.com' }
       },
       {
         name: 'Surya K',
