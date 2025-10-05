@@ -1,5 +1,7 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Mail, Award, Sparkles, FileText, Send, CheckCircle2, Calendar, User } from 'lucide-react';
@@ -35,7 +37,7 @@ const guidelines = [
 const sampleBlog = {
   title: 'Understanding 5G Technology: The Future of Connectivity',
   author: 'John Doe',
-  date: '2024-10-15',
+  date: '2025-10-15',
   category: 'Communication',
   image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop',
   readTime: '7 min read',
@@ -65,6 +67,7 @@ export default function BlogContribution() {
 
   return (
     <div className="relative min-h-screen">
+        <Navigation onWatchReel={() => {}} />
       <main className="pt-32 pb-20">
         <div className="container mx-auto px-8">
           {/* Hero Section */}
@@ -177,10 +180,10 @@ export default function BlogContribution() {
                   <div className="flex items-center justify-center gap-3 text-lg">
                     <Mail className="w-6 h-6 text-primary" />
                     <a 
-                      href="mailto:blog@ecea.com" 
+                      href="mailto:ecea@svce.ac.in" 
                       className="font-medium text-primary hover:text-primary/80 transition-colors"
                     >
-                      blog@ecea.com
+                      ecea@svce.ac.in
                     </a>
                   </div>
                   <p className="text-sm text-muted-foreground">
@@ -259,7 +262,7 @@ export default function BlogContribution() {
           >
             <Button
               size="lg"
-              onClick={() => window.location.href = 'mailto:blog@ecea.com?subject=Blog Submission'}
+              onClick={() => window.location.href = 'mailto:ecea@svce.ac.in?subject=Blog Submission'}
               className="group"
             >
               <Mail className="w-5 h-5 mr-2" />
@@ -269,6 +272,7 @@ export default function BlogContribution() {
           </motion.div>
         </div>
       </main>
+            <Footer />
     </div>
   );
 }
