@@ -68,7 +68,7 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
               <Link to="/" className="text-sm hover:text-primary transition-colors">Home</Link>
               <Link to="/team" className="text-sm hover:text-primary transition-colors">Team</Link>
               <Link to="/projects" className="text-sm hover:text-primary transition-colors">Projects</Link>
-              <Link to="/blog" className="text-sm hover:text-primary transition-colors">Blog</Link>
+              <Link to="/PreBlog" className="text-sm hover:text-primary transition-colors">Blog</Link>
               <Link to="/events" className="text-sm hover:text-primary transition-colors">Events</Link>
               <Link to="/achive" className="text-sm hover:text-primary transition-colors">Achivements</Link>
               
@@ -120,7 +120,7 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
                 Projects
               </Link>
               <Link 
-                to="/blog" 
+                to="/PreBlog" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block text-sm hover:text-primary transition-colors py-2"
               >
