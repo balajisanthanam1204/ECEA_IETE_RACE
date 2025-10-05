@@ -5,77 +5,77 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink } from 'lucide-react';
 
-const projects = {
-  uiux: [
-    {
-      title: 'Immersive Portfolio',
-      description: 'A 3D interactive portfolio showcasing design work with WebGL',
-      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
-      tags: ['UI/UX', '3D Design', 'WebGL'],
-      link: '#'
-    },
-    {
-      title: 'Mobile Banking App',
-      description: 'Modern and secure banking interface with seamless UX',
-      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop',
-      tags: ['Mobile', 'Fintech', 'UI Design'],
-      link: '#'
-    },
-    {
-      title: 'Dashboard Analytics',
-      description: 'Data visualization dashboard with real-time insights',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      tags: ['Dashboard', 'Data Viz', 'UX'],
-      link: '#'
-    }
-  ],
-  development: [
-    {
-      title: 'AI Chatbot Platform',
-      description: 'Conversational AI with natural language processing',
-      image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop',
-      tags: ['AI', 'Python', 'NLP'],
-      link: '#'
-    },
-    {
-      title: 'Event Management System',
-      description: 'Full-stack platform for managing college events',
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB'],
-      link: '#'
-    },
-    {
-      title: 'IoT Smart Campus',
-      description: 'Connected devices for automated campus management',
-      image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
-      tags: ['IoT', 'Arduino', 'Sensors'],
-      link: '#'
-    }
-  ],
-  research: [
-    {
-      title: 'Machine Learning Research',
-      description: 'Exploring deep learning for image recognition',
-      image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop',
-      tags: ['ML', 'Research', 'Python'],
-      link: '#'
-    },
-    {
-      title: 'Blockchain Security',
-      description: 'Research on decentralized security protocols',
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-      tags: ['Blockchain', 'Security', 'Research'],
-      link: '#'
-    },
-    {
-      title: 'VR Education Tools',
-      description: 'Virtual reality applications for enhanced learning',
-      image: 'https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=600&h=400&fit=crop',
-      tags: ['VR', 'Education', 'Unity'],
-      link: '#'
-    }
-  ]
-};
+// const projects = {
+//   uiux: [
+//     {
+//       title: 'Immersive Portfolio',
+//       description: 'A 3D interactive portfolio showcasing design work with WebGL',
+//       image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
+//       tags: ['UI/UX', '3D Design', 'WebGL'],
+//       link: '#'
+//     },
+//     {
+//       title: 'Mobile Banking App',
+//       description: 'Modern and secure banking interface with seamless UX',
+//       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop',
+//       tags: ['Mobile', 'Fintech', 'UI Design'],
+//       link: '#'
+//     },
+//     {
+//       title: 'Dashboard Analytics',
+//       description: 'Data visualization dashboard with real-time insights',
+//       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+//       tags: ['Dashboard', 'Data Viz', 'UX'],
+//       link: '#'
+//     }
+//   ],
+//   development: [
+//     {
+//       title: 'AI Chatbot Platform',
+//       description: 'Conversational AI with natural language processing',
+//       image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop',
+//       tags: ['AI', 'Python', 'NLP'],
+//       link: '#'
+//     },
+//     {
+//       title: 'Event Management System',
+//       description: 'Full-stack platform for managing college events',
+//       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
+//       tags: ['React', 'Node.js', 'MongoDB'],
+//       link: '#'
+//     },
+//     {
+//       title: 'IoT Smart Campus',
+//       description: 'Connected devices for automated campus management',
+//       image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
+//       tags: ['IoT', 'Arduino', 'Sensors'],
+//       link: '#'
+//     }
+//   ],
+//   research: [
+//     {
+//       title: 'Machine Learning Research',
+//       description: 'Exploring deep learning for image recognition',
+//       image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop',
+//       tags: ['ML', 'Research', 'Python'],
+//       link: '#'
+//     },
+//     {
+//       title: 'Blockchain Security',
+//       description: 'Research on decentralized security protocols',
+//       image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
+//       tags: ['Blockchain', 'Security', 'Research'],
+//       link: '#'
+//     },
+//     {
+//       title: 'VR Education Tools',
+//       description: 'Virtual reality applications for enhanced learning',
+//       image: 'https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=600&h=400&fit=crop',
+//       tags: ['VR', 'Education', 'Unity'],
+//       link: '#'
+//     }
+//   ]
+// };
 
 export default function ProjectsDetail() {
   return (

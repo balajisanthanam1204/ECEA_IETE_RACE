@@ -6,62 +6,62 @@ import { Badge } from '@/components/ui/badge';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const blogPosts = [
-  {
-    title: 'The Future of Immersive Web Experiences',
-    excerpt: 'Exploring how WebGL and Three.js are revolutionizing the way we interact with websites...',
-    author: 'Sarah Chen',
-    date: '2024-03-15',
-    category: 'Design',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop',
-    readTime: '5 min read'
-  },
-  {
-    title: 'Building AI-Powered Chatbots with Python',
-    excerpt: 'A comprehensive guide to creating intelligent conversational agents using modern NLP...',
-    author: 'Marcus Williams',
-    date: '2024-03-10',
-    category: 'Development',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
-    readTime: '8 min read'
-  },
-  {
-    title: 'UI/UX Trends to Watch in 2024',
-    excerpt: 'From neumorphism to glassmorphism, discover the design trends shaping digital products...',
-    author: 'Emily Rodriguez',
-    date: '2024-03-05',
-    category: 'Design',
-    image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop',
-    readTime: '6 min read'
-  },
-  {
-    title: 'Getting Started with IoT Development',
-    excerpt: 'Learn how to build your first IoT project using Arduino and sensors...',
-    author: 'David Kim',
-    date: '2024-02-28',
-    category: 'Hardware',
-    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
-    readTime: '10 min read'
-  },
-  {
-    title: 'Blockchain Beyond Cryptocurrency',
-    excerpt: 'Exploring practical applications of blockchain technology in various industries...',
-    author: 'Alex Johnson',
-    date: '2024-02-20',
-    category: 'Research',
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-    readTime: '7 min read'
-  },
-  {
-    title: 'Creating Accessible Web Applications',
-    excerpt: 'Best practices for building inclusive digital experiences for all users...',
-    author: 'Priya Sharma',
-    date: '2024-02-15',
-    category: 'Development',
-    image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&h=400&fit=crop',
-    readTime: '6 min read'
-  }
-];
+// const blogPosts = [
+//   {
+//     title: 'The Future of Immersive Web Experiences',
+//     excerpt: 'Exploring how WebGL and Three.js are revolutionizing the way we interact with websites...',
+//     author: 'Sarah Chen',
+//     date: '2024-03-15',
+//     category: 'Design',
+//     image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop',
+//     readTime: '5 min read'
+//   },
+//   {
+//     title: 'Building AI-Powered Chatbots with Python',
+//     excerpt: 'A comprehensive guide to creating intelligent conversational agents using modern NLP...',
+//     author: 'Marcus Williams',
+//     date: '2024-03-10',
+//     category: 'Development',
+//     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+//     readTime: '8 min read'
+//   },
+//   {
+//     title: 'UI/UX Trends to Watch in 2024',
+//     excerpt: 'From neumorphism to glassmorphism, discover the design trends shaping digital products...',
+//     author: 'Emily Rodriguez',
+//     date: '2024-03-05',
+//     category: 'Design',
+//     image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop',
+//     readTime: '6 min read'
+//   },
+//   {
+//     title: 'Getting Started with IoT Development',
+//     excerpt: 'Learn how to build your first IoT project using Arduino and sensors...',
+//     author: 'David Kim',
+//     date: '2024-02-28',
+//     category: 'Hardware',
+//     image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
+//     readTime: '10 min read'
+//   },
+//   {
+//     title: 'Blockchain Beyond Cryptocurrency',
+//     excerpt: 'Exploring practical applications of blockchain technology in various industries...',
+//     author: 'Alex Johnson',
+//     date: '2024-02-20',
+//     category: 'Research',
+//     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
+//     readTime: '7 min read'
+//   },
+//   {
+//     title: 'Creating Accessible Web Applications',
+//     excerpt: 'Best practices for building inclusive digital experiences for all users...',
+//     author: 'Priya Sharma',
+//     date: '2024-02-15',
+//     category: 'Development',
+//     image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&h=400&fit=crop',
+//     readTime: '6 min read'
+//   }
+// ];
 
 export default function Blog() {
   return (

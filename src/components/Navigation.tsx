@@ -11,25 +11,25 @@ interface NavigationProps {
 const upcomingEvents = [
   {
     id: 1,
-    title: 'Tech Workshop 2025',
-    poster: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop',
+    title: 'Enigma',
+    poster: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop',
     description: 'Join us for an immersive workshop on cutting-edge technology and innovation.',
-    venue: 'Seminar Hall, Main Block',
-    date: '15th November 2025',
-    time: '10:00 AM - 4:00 PM',
-    registrationLink: 'https://forms.google.com/register',
-    detailsLink: '/events/tech-workshop-2025'
+    venue: 'IIIrd-floor,Block 5,SVCE.',
+    date: '07th October 2025',
+    time: '10:00 AM - 3:00 PM',
+    registrationLink: 'https://forms.gle/8YT9gu9U2Kkwao4a8',
+    detailsLink: '/pages/Events'
   },
   {
     id: 2,
-    title: 'Innovation Hackathon',
-    poster: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop',
-    description: '24-hour coding challenge to build innovative solutions for real-world problems.',
-    venue: 'Computer Lab A & B',
-    date: '22nd November 2025',
-    time: '9:00 AM (Day 1) - 9:00 AM (Day 2)',
-    registrationLink: 'https://forms.google.com/hackathon',
-    detailsLink: '/events/innovation-hackathon'
+    title: 'Guest Leacher',
+    poster: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop',
+    description: 'Comming soon',
+    venue: 'Comming soon',
+    date: '2025',
+    time: 'Comming soon',
+    registrationLink: '#',
+    detailsLink: '/pages/Events'
   }
 ];
 
