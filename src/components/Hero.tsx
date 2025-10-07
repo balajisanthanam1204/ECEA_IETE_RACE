@@ -31,7 +31,7 @@ export default function Hero() {
               
               <div className="mt-6 text-center ">
                 <p className="text-sm text-muted-foreground ">
-                  ECEA,IETE-SF,RACE are student-led community exploring design, innovation, and immersive technology.
+                  ECEA,IETE-SF and RACE are student-led communities exploring design, innovation, emerging technology.
                 </p>
               </div>
             </div>
@@ -47,16 +47,16 @@ export default function Hero() {
           <br></br>
             <div className="space-y-4">
               <h2 className="text-xs uppercase tracking-[0.3em] text-primary font-medium">
-                Welcome to ECEA,IETE-SF,RACE
+                Explore ECEA,IETE-SF and RACE - where ideas take shape.
               </h2>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-[1.1] text-glow">
-                We imagine, explore and build immersive experiences for the student.
+                We imagine, explore and build immersive experiences that empower student to innovate.
               </h1>
             </div>
 
             <p className="text-lg text-foreground/70 leading-relaxed max-w-xl">
               Join us in pushing the boundaries of technology, design, and innovation. 
-              Together, we create the future of electronics.
+              Together, we engineer the future of electronics.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">

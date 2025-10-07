@@ -121,19 +121,9 @@ export default function About() {
         >
 
           <p className="text-lg text-foreground/80 leading-relaxed">
-           The Electronics and engineering association also known as ECEA is
-            running efficiently through years in svce. The main objective of
-             this association is to collectively work as a team to organize and
-              improve the technical and non technical skills of the students. 
-              It is not only for the students of ECE but also for students from 
-              other departments. The association is headed by our HOD,
-              DR kumaradharan , DR T J Jeyaprabha , DR balaji and Mary. Several events 
-              like Make-a-thon , enigma and workshops take place every 
-              year headed by different office bearers. In the year 2020-2021 
-              placement training activities were organized for 2nd year ECE 
-              students in order to create an edge for them. These events were 
-              planned to help the students to enhance and develop skills that 
-              are required for placements
+As part of the Department of Electronics and Communication Engineering at SVCE, the Electronics and Communication Engineers Association (ECEA), the Institution of Electronics and Telecommunication Engineers – Student's Forum (IETE-SF), and the Research Association for Innovative Design in Communication and Electronics (RACE) drive student-led innovation, learning, and collaboration under the guidance of Head of Department Dr. N. Kumaratharan and coordinators Dr. T. J. Jeyaprabha, Mr. L. K. Balaji Vignesh, and Mrs. S. Mary Cynthia.
+<br></br>
+Each club has its focus while collectively fostering technical excellence and skill development. ECEA nurtures professional growth and skill-building, IETE-SF connects students to a national engineering network and research opportunities, RACE emphasizes hands-on learning in robotics, AI, etc, through mentorship and projects. Through flagship initiatives like Make-a-thon, Enigma, Synapse, Upagraha, and TrackBot, along with workshops, guest lectures, and mentorship programs, the clubs foster problem-solving, innovation, teamwork, and career readiness in students in a rapidly evolving technological landscape.
           </p>
         </motion.div>
 
