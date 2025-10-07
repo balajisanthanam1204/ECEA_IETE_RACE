@@ -67,9 +67,9 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
             <div className="hidden md:flex items-center gap-8">
               <Link to="/" className="text-sm hover:text-primary transition-colors">Home</Link>
               <Link to="/team" className="text-sm hover:text-primary transition-colors">Team</Link>
-              {/* <Link to="/projects" className="text-sm hover:text-primary transition-colors">Projects</Link> */}
+              <Link to="/projects" className="text-sm hover:text-primary transition-colors">Projects</Link>
               <Link to="/PreBlog" className="text-sm hover:text-primary transition-colors">Blog</Link>
-              {/* <Link to="/events" className="text-sm hover:text-primary transition-colors">Events</Link> */}
+              <Link to="/events" className="text-sm hover:text-primary transition-colors">Events</Link>
               <Link to="/achive" className="text-sm hover:text-primary transition-colors">Achivements</Link>
               
               <Button
@@ -112,13 +112,13 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
               >
                 Team
               </Link>
-              {/* <Link 
+              <Link 
                 to="/projects" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block text-sm hover:text-primary transition-colors py-2"
               >
                 Projects
-              </Link> */}
+              </Link>
               <Link 
                 to="/PreBlog" 
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -126,13 +126,13 @@ export default function Navigation({ onWatchReel }: NavigationProps) {
               >
                 Blog
               </Link>
-              {/* <Link 
+              <Link 
                 to="/events" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block text-sm hover:text-primary transition-colors py-2"
               >
                 Events
-              </Link> */}
+              </Link>
               <Link 
                 to="/achive" 
                 onClick={() => setIsMobileMenuOpen(false)}
