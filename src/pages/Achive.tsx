@@ -9,7 +9,7 @@ import { Trophy, Users, Award, Zap, Calendar, UserCheck } from 'lucide-react';
 
 // --- Achievement Data ---
 const allAchievements = [
-  {
+ {
     id: 1,
     title: 'RACE Mentorship Program – Phase 1 (2024–25)',
     description: 'Foundational electronics and IoT mentorship program. Phase 1 trained 36 students through 16 sessions covering basic electronics, Arduino and ESP32 programming, IoT fundamentals, instrumentation, and Wokwi simulation. 35 students earned certification.',

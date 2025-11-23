@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { ExternalLink } from 'lucide-react';
 
 const projects = [
-  {
+   {
   title: 'Launching the ECEA Blog Hub',
   category: 'Club Announcement',
   description: 'Introducing our new platform for sharing ideas, projects, and innovations in the ECE domain.',

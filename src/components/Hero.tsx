@@ -49,8 +49,9 @@ export default function Hero() {
               <h2 className="text-xs uppercase tracking-[0.3em] text-primary font-medium">
                 Explore ECEA,IETE-SF and RACE - where ideas take shape.
               </h2>
-              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-[1.1] text-glow">
-                We imagine and build immersive experiences that empower students to innovate.
+              <h1 className="text-5xl lg:text-6xl xl:text-6xl font-display font-bold leading-[1.1] text-glow">
+              We create immersive experiences that empower students to innovate.
+
               </h1>
             </div>
 
@@ -60,7 +61,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Link to="/pages/Events">
+              <Link to="/Events">
                 <Button
                   variant="glass"
                   size="lg"
