@@ -1,4 +1,4 @@
-import { Github, Twitter, Instagram, Mail } from 'lucide-react';
+import { Github, Twitter, Instagram, Mail, Code } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -53,14 +53,24 @@ export default function Footer() {
               <p>ietesf@svce.ac.in</p>
               <p>race@svce.ac.in</p>
               <p>SVCE, kanchipuram, Tamil Nadu. </p>
-
             </div>
           </div>
         </div>
 
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-foreground/50">
-          <p>© 2026 ECEA,IETE.RACE. All rights reserved.</p>
-          <p>Developed by <a href="https://www.linkedin.com/in/balaji-santhanam008/" >Balaji S</a></p>
+          <p>© 2026 ECEA, IETE-SF, RACE. All rights reserved.</p>
+          <div className="flex items-center gap-2">
+            <Code className="w-4 h-4 text-primary" />
+            <span>Developed with passion by</span>
+            <a 
+              href="https://www.linkedin.com/in/balaji-santhanam008/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary hover:text-primary/80 transition-colors hover:underline decoration-primary/50 underline-offset-4"
+            >
+              Balaji S
+            </a>
+          </div>
         </div>
       </div>
     </footer>

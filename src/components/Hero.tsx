@@ -50,7 +50,7 @@ export default function Hero() {
                 Explore ECEA,IETE-SF and RACE - where ideas take shape.
               </h2>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-[1.1] text-glow">
-                We imagine, explore and build immersive experiences that empower student to innovate.
+                We imagine and build immersive experiences that empower students to innovate.
               </h1>
             </div>
 
@@ -60,13 +60,13 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Link to="/projects">
+              <Link to="/pages/Events">
                 <Button
                   variant="glass"
                   size="lg"
                   className="px-8 py-6 text-base font-medium rounded-full group"
                 >
-                  <span>Explore our projects</span>
+                  <span>Explore our Events</span>
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>

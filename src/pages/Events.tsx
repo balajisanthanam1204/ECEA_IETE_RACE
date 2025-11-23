@@ -8,81 +8,130 @@ import { Button } from '@/components/ui/button';
 
 const upcomingEvents = [
   {
-    title: 'AI & Machine Learning Workshop',
-    date: '2024-04-10',
-    time: '2:00 PM - 5:00 PM',
-    location: 'Tech Lab, Building A',
-    attendees: 45,
-    image: 'https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=600&h=400&fit=crop',
-    description: 'Hands-on workshop covering neural networks and deep learning fundamentals',
+    title: 'SYNAPSE \'25',
+    date: '2025-09-25',
+    time: 'Full Day Event',
+    location: 'Classroom Block 5, SVCE',
+    attendees: 50,
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
+    description: 'Aptitude & Circuit Challenge - Two-round technical contest for second-year ECE students',
     status: 'Registration Open'
   },
   {
-    title: 'Web3 & Blockchain Hackathon',
-    date: '2024-04-25',
-    time: '9:00 AM - 9:00 PM',
-    location: 'Main Auditorium',
-    attendees: 120,
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop',
-    description: '12-hour hackathon focused on decentralized applications',
-    status: 'Early Bird'
+    title: 'ENIGMA \'25',
+    date: '2025-10-05',
+    time: 'Full Day Event',
+    location: 'Classroom Block 5, SVCE',
+    attendees: 40,
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
+    description: 'Cryptography & Logical Reasoning Challenge featuring cipher-solving with Enigma simulator',
+    status: 'Coming Soon'
   }
 ];
 
 const futureEvents = [
   {
-    title: 'UI/UX Design Sprint',
-    date: '2024-05-15',
+    title: 'TRACKBOT \'26',
+    date: '2026-02-15',
     time: '10:00 AM - 4:00 PM',
-    location: 'Design Studio',
-    attendees: 30,
-    image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop',
-    description: 'Intensive design thinking and prototyping session',
-    status: 'Coming Soon'
-  },
-  {
-    title: 'Tech Talk: Industry Leaders',
-    date: '2024-06-01',
-    time: '6:00 PM - 8:00 PM',
-    location: 'Conference Hall',
-    attendees: 200,
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
-    description: 'Panel discussion with tech industry professionals',
+    location: 'ECE Block',
+    attendees: 35,
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop',
+    description: 'Autonomous robotics race competition in honour of IETE Student\'s Day',
     status: 'Save the Date'
   },
   {
-    title: 'IoT Innovation Challenge',
-    date: '2024-06-20',
-    time: '11:00 AM - 6:00 PM',
-    location: 'Innovation Lab',
-    attendees: 60,
-    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
-    description: 'Build smart devices and compete for prizes',
+    title: 'UPAGRAHA \'26',
+    date: '2026-02-22',
+    time: '9:00 AM - 6:00 PM',
+    location: 'Various ECE Labs & CB5',
+    attendees: 200,
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
+    description: 'Intercollegiate ECE Technical Symposium with 6 diverse technical events',
+    status: 'Announced'
+  },
+  {
+    title: 'MAKE-A-THON 7.0',
+    date: '2026-04-25',
+    time: '24-Hour Hackathon',
+    location: 'Multi-Purpose Hall, SVCE',
+    attendees: 150,
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop',
+    description: 'National-level 24-hour hackathon integrating hardware and software innovation',
     status: 'Announced'
   }
 ];
 
 const pastEvents = [
   {
-    title: 'Annual Tech Fest 2024',
-    date: '2024-02-15',
-    attendees: 500,
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
-    highlights: 'Amazing turnout with 10+ workshops and competitions'
-  },
-  {
-    title: 'React & Frontend Masterclass',
-    date: '2024-01-20',
+    title: 'System Design with High-Speed Applications',
+    date: '2025-08-13',
     attendees: 80,
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop',
-    highlights: 'Deep dive into modern React patterns and best practices'
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop',
+    highlights: 'Guest lecture by Mr. Balajee Seshadri from Infineon Technologies'
   },
   {
-    title: 'Cybersecurity Workshop',
-    date: '2023-12-10',
+    title: 'MAKE-A-THON 6.0',
+    date: '2025-04-29',
+    attendees: 171,
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop',
+    highlights: '24-hour national hackathon with 40 shortlisted teams and industry judges'
+  },
+  {
+    title: 'Machine Learning Project Pipeline',
+    date: '2025-03-28',
     attendees: 65,
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
-    highlights: 'Ethical hacking and security fundamentals covered'
+    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop',
+    highlights: 'Webinar by Mr. Jeeva Kumar A on end-to-end ML workflows'
+  },
+  {
+    title: 'UPAGRAHA\'25',
+    date: '2025-02-22',
+    attendees: 250,
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop',
+    highlights: 'ECE Technical Symposium with 6 events including IoT, VLSI, and robotics'
+  },
+  {
+    title: 'TRACKBOT\'25',
+    date: '2025-02-15',
+    attendees: 30,
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop',
+    highlights: 'Autonomous line-following robotics race for IETE Student\'s Day'
+  },
+  {
+    title: 'ENIGMA\'24',
+    date: '2024-11-09',
+    attendees: 40,
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
+    highlights: 'Cryptography challenge with classical ciphers and Enigma-style decryption'
+  },
+  {
+    title: 'From Code to Creation: Exploring Wokwi for IoT',
+    date: '2024-11-05',
+    attendees: 70,
+    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=600&h=400&fit=crop',
+    highlights: 'Guest lecture by Dr. Swarna Sethu on IoT simulation and rapid prototyping'
+  },
+  {
+    title: 'From Campus to Career',
+    date: '2024-10-19',
+    attendees: 90,
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop',
+    highlights: 'Government job pathways guidance by Mr. S. Venkatraman, CPSE Management Trainee'
+  },
+  {
+    title: 'RAIC Hands-On Sessions',
+    date: '2024-09-26',
+    attendees: 45,
+    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop',
+    highlights: 'Practical workshop on LED circuits, Arduino, and ESP32 microcontrollers'
+  },
+  {
+    title: 'Ampere Quest\'24',
+    date: '2024-09-18',
+    attendees: 62,
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
+    highlights: 'Technical aptitude and circuit diagnostic challenge with 31 participating teams'
   }
 ];
 
@@ -100,13 +149,13 @@ export default function Events() {
             className="text-center mb-16"
           >
             <h2 className="text-xs uppercase tracking-[0.3em] text-primary font-medium mb-4">
-              Events
+              ECEA Events
             </h2>
             <h1 className="text-5xl lg:text-6xl font-display font-bold mb-6 text-glow">
-              Join Our Community
+              Join Our Technical Community
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Workshops, hackathons, and tech talks to expand your skills and network
+              Competitions, workshops, symposiums, and hackathons to enhance your engineering skills
             </p>
           </motion.div>
 
@@ -160,7 +209,7 @@ export default function Events() {
                         </div>
                         <div className="flex items-center gap-2 text-muted-foreground">
                           <Users className="w-4 h-4 text-primary" />
-                          {event.attendees} registered
+                          {event.attendees} expected
                         </div>
                       </div>
                       <Button className="w-full" size="lg">

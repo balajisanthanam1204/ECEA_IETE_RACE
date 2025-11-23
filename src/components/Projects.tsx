@@ -5,24 +5,20 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Immersive AR Campus Tour',
-    category: 'Augmented Reality',
-    description: 'Interactive campus exploration using AR technology.',
+  title: 'Launching the ECEA Blog Hub',
+  category: 'Club Announcement',
+  description: 'Introducing our new platform for sharing ideas, projects, and innovations in the ECE domain.',
+
   },
   {
-    title: 'AI-Powered Workshop Series',
-    category: 'Machine Learning',
-    description: 'Hands-on sessions on building ML models and applications.',
+    title: 'RACE Mentorship Program – Phase 1',
+    category: 'Mentorship Program',
+    description: 'Foundational electronics and IoT mentorship program.',
   },
   {
-    title: 'VR Collaboration Space',
-    category: 'Virtual Reality',
-    description: 'Virtual meeting rooms for remote team collaboration.',
-  },
-  {
-    title: 'Tech Hackathon 2024',
-    category: 'Event',
-    description: '48-hour innovation challenge with industry partners.',
+    title: 'Outstanding ISF Award 2024–2025',
+    category: 'Award',
+    description: ' Sixth consecutive Outstanding ISF Award and Best Coordinator Award.',
   },
 ];
 
